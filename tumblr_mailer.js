@@ -4,13 +4,13 @@ var ejs = require('ejs');
 var emailTemplate = fs.readFileSync("email_template.ejs", 'utf8');
 var tumblr = require('tumblr.js');
 var client = tumblr.createClient({
-  consumer_key: '9UzfsIUwsupdaG1euoZ82v4JD4URdxqYc20pQ8fRKXMdbNZzu9',
-  consumer_secret: 'i8wMYmDDKGI760gkVSN6qcME1mpDkZNvAQyCP58DPrG1AnxCQ0',
-  token: '1jnrPr3xgyesSWSiBumFiAMVFDofLlKxEpHCYLpMlGEuOgRTX2',
-  token_secret: '83koAJm7cjdb1OmWE3sGHel0kvgWlnvNSGHrcxMPVJkjpfZ2Ih'
+  consumer_key: 'x',
+  consumer_secret: 'x',
+  token: 'x',
+  token_secret: 'x'
 });
 var mandrill = require('mandrill-api/mandrill');
-var mandrill_client = new mandrill.Mandrill('ho98mvPkpDJIVPwuilJC4Q');
+var mandrill_client = new mandrill.Mandrill('x');
 
 
 function csvParse(csvFile) {
